@@ -12,7 +12,7 @@ Personal scripts to automate management of AWS resources using Python
             <th>Link ↗</th>
         </tr>
     </thead>
-    <tbody style="background-color:transparent">
+    <tbody>
         <tr>
             <td colspan=4, style="text-align: left">S3</td>
         </tr>
