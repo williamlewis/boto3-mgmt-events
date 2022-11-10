@@ -1,5 +1,5 @@
 # boto3-mgmt-events
-Personal scripts to automate creation and deletion of AWS resources using Python
+Personal scripts to automate management of AWS resources using Python
 
 </br>
 
@@ -7,72 +7,79 @@ Personal scripts to automate creation and deletion of AWS resources using Python
     <thead>
         <tr>
             <th>Description</th>
-            <th>Classes & Methods Used</th>
+            <th>Classes Used</th>
+            <th>Methods Used</th>
             <th>Link ↗</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td colspan=3, style="text-align: left">S3</td>
+            <td colspan=4, style="text-align: left">S3</td>
         </tr>
         <tr>
             <td>[description]</td>
-            <td><code>[classes]</code> <code>[methods]</code></td>
+            <td><code>[classes]</code></td>
+            <td><code>[methods]</code></td>
             <td><a href="">link</a></td>
         </tr>
         <tr>
-            <td colspan=3></td>
+            <td colspan=4></td>
         </tr>
         <tr>
-            <td colspan=3, style="text-align: left">DynamoDB</td>
+            <td colspan=4, style="text-align: left">DynamoDB</td>
         </tr>
         <tr>
             <td>[description]</td>
-            <td><code><code>[classes]</code> <code>[methods]</code></code></td>
+            <td><code>[classes]</code></td>
+            <td><code>[methods]</code></td>
             <td><a href="">link</a></td>
         </tr>
         <tr>
-            <td colspan=3></td>
+            <td colspan=4></td>
         </tr>
         <tr>
-            <td colspan=3, style="text-align: left">EC2</td>
+            <td colspan=4, style="text-align: left">EC2</td>
         </tr>
         <tr>
-            <td>[description]</td>
-            <td><code><code>[classes]</code> <code>[methods]</code></code></td>
+            <td>Launch a specified number of new instances from defined AMI & instance type</td>
+            <td><code>EC2.Client</code></td>
+            <td><code>.run_instances()</code></td>
             <td><a href="">link</a></td>
         </tr>
         <tr>
-            <td colspan=3></td>
+            <td colspan=4></td>
         </tr>
         <tr>
-            <td colspan=3, style="text-align: left">SNS</td>
+            <td colspan=4, style="text-align: left">SNS</td>
         </tr>
         <tr>
             <td>[description]</td>
-            <td><code><code>[classes]</code> <code>[methods]</code></code></td>
+            <td><code>[classes]</code></td>
+            <td><code>[methods]</code></td>
             <td><a href="">link</a></td>
         </tr>
         <tr>
-            <td colspan=3></td>
+            <td colspan=4></td>
         </tr>
         <tr>
-            <td colspan=3, style="text-align: left">Lambda</td>
+            <td colspan=4, style="text-align: left">Lambda</td>
         </tr>
         <tr>
             <td>[description]</td>
-            <td><code><code>[classes]</code> <code>[methods]</code></code></td>
+            <td><code>[classes]</code></td>
+            <td><code>[methods]</code></td>
             <td><a href="">link</a></td>
         </tr>
         <tr>
-            <td colspan=3></td>
+            <td colspan=4></td>
         </tr>
         <tr>
-            <td colspan=3, style="text-align: left">CloudWatch Logs</td>
+            <td colspan=4, style="text-align: left">CloudWatch Logs</td>
         </tr>
         <tr>
             <td>[description]</td>
-            <td><code><code>[classes]</code> <code>[methods]</code></code></td>
+            <td><code>[classes]</code></td>
+            <td><code>[methods]</code></td>
             <td><a href="">link</a></td>
         </tr>
     </tbody>
