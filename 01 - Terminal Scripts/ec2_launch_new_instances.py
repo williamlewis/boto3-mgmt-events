@@ -6,8 +6,8 @@ client = boto3.client('ec2')
 
 # launch instances by providing AMI image id, instance type, & number
 resp = client.run_instances(
-    ImageId='ami-026b57f3c383c2eec',
-    InstanceType='t2.micro',
+    ImageId='ami-026b57f3c383c2eec', # typical linux OS
+    InstanceType='t2.micro', # included in AWS free tier
     MinCount=1,
     MaxCount=1
 )
