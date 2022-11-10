@@ -12,35 +12,35 @@ Personal scripts to automate management of AWS resources using Python
             <th>Link ↗</th>
         </tr>
     </thead>
-    <tbody style="background-color:transparent">
-        <tr>
+    <tbody>
+        <tr style="background-color:transparent">
             <td colspan=4, style="text-align: left">S3</td>
         </tr>
-        <tr>
+        <tr style="background-color:transparent">
             <td>[description]</td>
             <td><code>[classes]</code></td>
             <td><code>[methods]</code></td>
             <td><a href="">link</a></td>
         </tr>
-        <tr>
+        <tr style="background-color:transparent">
             <td colspan=4></td>
         </tr>
-        <tr>
+        <tr style="background-color:transparent">
             <td colspan=4, style="text-align: left">DynamoDB</td>
         </tr>
-        <tr>
+        <tr style="background-color:transparent">
             <td>[description]</td>
             <td><code>[classes]</code></td>
             <td><code>[methods]</code></td>
             <td><a href="">link</a></td>
         </tr>
-        <tr>
+        <tr style="background-color:transparent">
             <td colspan=4></td>
         </tr>
-        <tr>
+        <tr style="background-color:transparent">
             <td colspan=4, style="text-align: left">EC2</td>
         </tr>
-        <tr>
+        <tr style="background-color:transparent">
             <td>Launch a specified number of new instances from defined AMI & instance type</td>
             <td><code>EC2.Client</code></td>
             <td><code>.run_instances()</code></td>
@@ -49,34 +49,34 @@ Personal scripts to automate management of AWS resources using Python
         <tr>
             <td colspan=4></td>
         </tr>
-        <tr>
+        <tr style="background-color:transparent">
             <td colspan=4, style="text-align: left">SNS</td>
         </tr>
-        <tr>
+        <tr style="background-color:transparent">
             <td>[description]</td>
             <td><code>[classes]</code></td>
             <td><code>[methods]</code></td>
             <td><a href="">link</a></td>
         </tr>
-        <tr>
+        <tr style="background-color:transparent">
             <td colspan=4></td>
         </tr>
-        <tr>
+        <tr style="background-color:transparent">
             <td colspan=4, style="text-align: left">Lambda</td>
         </tr>
-        <tr>
+        <tr style="background-color:transparent">
             <td>[description]</td>
             <td><code>[classes]</code></td>
             <td><code>[methods]</code></td>
             <td><a href="">link</a></td>
         </tr>
-        <tr>
+        <tr style="background-color:transparent">
             <td colspan=4></td>
         </tr>
-        <tr>
+        <tr style="background-color:transparent">
             <td colspan=4, style="text-align: left">CloudWatch Logs</td>
         </tr>
-        <tr>
+        <tr style="background-color:transparent">
             <td>[description]</td>
             <td><code>[classes]</code></td>
             <td><code>[methods]</code></td>
