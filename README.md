@@ -1,4 +1,7 @@
 # boto3-mgmt-events
+
+[In Progress]
+
 Personal scripts to automate management of AWS resources using Python
 
 </br>
@@ -13,11 +16,11 @@ Personal scripts to automate management of AWS resources using Python
         </tr>
     </thead>
     <tbody>
-        <tr>
+        <!-- <tr>
             <td colspan=4, style="text-align: left">S3</td>
         </tr>
         <tr>
-            <td>[description]</td>
+            <td width="50%">[description]</td>
             <td><code>[classes]</code></td>
             <td><code>[methods]</code></td>
             <td><a href="">link</a></td>
@@ -29,31 +32,31 @@ Personal scripts to automate management of AWS resources using Python
             <td colspan=4, style="text-align: left">DynamoDB</td>
         </tr>
         <tr>
-            <td>[description]</td>
+            <td width="50%">[description]</td>
             <td><code>[classes]</code></td>
             <td><code>[methods]</code></td>
             <td><a href="">link</a></td>
         </tr>
         <tr>
             <td colspan=4></td>
-        </tr>
+        </tr> -->
         <tr>
             <td colspan=4, style="text-align: left">EC2</td>
         </tr>
         <tr>
-            <td>Launch a specified number of new instances from defined AMI & instance type</td>
+            <td width="50%">Launch a specified number of new instances from defined AMI & instance type</td>
             <td><code>EC2.Client</code></td>
             <td><code>.run_instances()</code></td>
-            <td><a href="">link</a></td>
+            <td><a href="https://github.com/williamlewis/boto3-mgmt-events/blob/main/01%20-%20Terminal%20Scripts/ec2_launch_new_instances.py">ec2 launch new instances.py</a></td>
         </tr>
         <tr>
             <td colspan=4></td>
         </tr>
-        <tr>
+        <!-- <tr>
             <td colspan=4, style="text-align: left">SNS</td>
         </tr>
         <tr>
-            <td>[description]</td>
+            <td width="50%">[description]</td>
             <td><code>[classes]</code></td>
             <td><code>[methods]</code></td>
             <td><a href="">link</a></td>
@@ -65,7 +68,7 @@ Personal scripts to automate management of AWS resources using Python
             <td colspan=4, style="text-align: left">Lambda</td>
         </tr>
         <tr>
-            <td>[description]</td>
+            <td width="50%">[description]</td>
             <td><code>[classes]</code></td>
             <td><code>[methods]</code></td>
             <td><a href="">link</a></td>
@@ -77,11 +80,11 @@ Personal scripts to automate management of AWS resources using Python
             <td colspan=4, style="text-align: left">CloudWatch Logs</td>
         </tr>
         <tr>
-            <td>[description]</td>
+            <td width="50%">[description]</td>
             <td><code>[classes]</code></td>
             <td><code>[methods]</code></td>
             <td><a href="">link</a></td>
-        </tr>
+        </tr> -->
     </tbody>
 </table>
 
