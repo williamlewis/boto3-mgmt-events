@@ -10,8 +10,8 @@ Personal scripts to automate management of AWS resources using Python
     <thead>
         <tr>
             <th>Description</th>
-            <th>Classes Used</th>
-            <th>Methods Used</th>
+            <th>Classes</th>
+            <th>Methods / Collections</th>
             <th>Link ↗</th>
         </tr>
     </thead>
@@ -51,8 +51,8 @@ Personal scripts to automate management of AWS resources using Python
         </tr>
         <tr>
             <td>List out InstanceId attribute for all current instances</td>
-            <td><code>EC2. ServiceResource. instances</code></td>
-            <td><code>.all()</code></td>
+            <td><code>EC2. ServiceResource</code></td>
+            <td><code>.instances.all()</code></td>
             <td><a href="https://github.com/williamlewis/boto3-mgmt-events/blob/main/01%20-%20Terminal%20Scripts/ec2_get_all_instance_ids.py">ec2 get all instance ids.py</a></td>
         </tr>
         <tr>
