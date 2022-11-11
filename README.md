@@ -44,10 +44,16 @@ Personal scripts to automate management of AWS resources using Python
             <td colspan=4, style="text-align: left">EC2</td>
         </tr>
         <tr>
-            <td width="50%">Launch a specified number of new instances from defined AMI & instance type</td>
-            <td><code>EC2.Client</code></td>
+            <td>Launch a specified number of new instances from defined AMI & instance type</td>
+            <td><code>EC2. Client</code></td>
             <td><code>.run_instances()</code></td>
             <td><a href="https://github.com/williamlewis/boto3-mgmt-events/blob/main/01%20-%20Terminal%20Scripts/ec2_launch_new_instances.py">ec2 launch new instances.py</a></td>
+        </tr>
+        <tr>
+            <td>List out InstanceId attribute for all current instances</td>
+            <td><code>EC2. ServiceResource. instances</code></td>
+            <td><code>.all()</code></td>
+            <td><a href="https://github.com/williamlewis/boto3-mgmt-events/blob/main/01%20-%20Terminal%20Scripts/ec2_get_all_instance_ids.py">ec2 get all instance ids.py</a></td>
         </tr>
         <tr>
             <td colspan=4></td>
