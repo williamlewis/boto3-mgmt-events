@@ -91,6 +91,19 @@ Personal scripts to automate management of AWS resources using Python
             <td><code>[methods]</code></td>
             <td><a href="">link</a></td>
         </tr> -->
+        <tr>
+            <td colspan=4, style="text-align: left">CloudWatch</td>
+        </tr>
+        <tr>
+            <td rowspan=2 width="50%">Delete CloudWatch metric alarms</td>
+            <td><code>CloudWatch. ServiceResource</code></td>
+            <td><code>.alarms.all()</code></td>
+            <td rowspan=2><a href="https://github.com/williamlewis/boto3-mgmt-events/blob/main/01%20-%20Terminal%20Scripts/cloudwatch_delete_alarms.py">cloudwatch delete alarms.py</a></td>
+        </tr>
+        <tr>
+            <td><code>CloudWatch. Alarm</code></td>
+            <td><code>.delete()</code></td>
+        </tr>
     </tbody>
 </table>
 
