@@ -6,6 +6,22 @@ Personal scripts to automate management of AWS resources using Python
 
 </br>
 
+When learning AWS, you must frequently create, modify, and delete resources for demo and test purposes.
+
+Using Boto3 scripting, these repetitive actions can be automated for expediency and can help ensure that demo resources have been removed to avoid incurring unexpected costs.
+
+</br>
+
+[Boto3 Documentation](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
+
+<!---
+Boto3 as defined in the official [Boto3 Documentation](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html):
+
+> You use the AWS SDK for Python (Boto3) to create, configure, and manage AWS services, such as Amazon Elastic Compute Cloud (Amazon EC2) and Amazon Simple Storage Service (Amazon S3). The SDK provides an object-oriented API as well as low-level access to AWS services.
+--->
+
+</br>
+
 <table>
     <thead>
         <tr>
@@ -109,4 +125,4 @@ Personal scripts to automate management of AWS resources using Python
 
 </br>
 
-Refer to [Boto3 Documentation](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
+
