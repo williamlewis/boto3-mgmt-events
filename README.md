@@ -17,7 +17,7 @@ Personal scripts to automate management of AWS resources using Python
     </thead>
     <tbody>
         <!-- <tr>
-            <td colspan=4, style="text-align: left">S3</td>
+            <td colspan=4, style="text-align: left"><b>S3</b></td>
         </tr>
         <tr>
             <td width="50%">[description]</td>
@@ -29,7 +29,7 @@ Personal scripts to automate management of AWS resources using Python
             <td colspan=4></td>
         </tr>
         <tr>
-            <td colspan=4, style="text-align: left">DynamoDB</td>
+            <td colspan=4, style="text-align: left"><b>DynamoDB</b></td>
         </tr>
         <tr>
             <td width="50%">[description]</td>
@@ -41,7 +41,7 @@ Personal scripts to automate management of AWS resources using Python
             <td colspan=4></td>
         </tr> -->
         <tr>
-            <td colspan=4, style="text-align: left">EC2</td>
+            <td colspan=4, style="text-align: left"><b>EC2</b></td>
         </tr>
         <tr>
             <td>Launch a specified number of new instances from defined AMI & instance type</td>
@@ -59,7 +59,7 @@ Personal scripts to automate management of AWS resources using Python
             <td colspan=4></td>
         </tr>
         <tr>
-            <td colspan=4, style="text-align: left">SNS</td>
+            <td colspan=4, style="text-align: left"><b>SNS</b></td>
         </tr>
         <tr>
             <td width="50%">[description]</td>
@@ -71,7 +71,7 @@ Personal scripts to automate management of AWS resources using Python
             <td colspan=4></td>
         </tr> -->
         <tr>
-            <td colspan=4, style="text-align: left">Lambda</td>
+            <td colspan=4, style="text-align: left"><b>Lambda</b></td>
         </tr>
         <tr>
             <td>Delete a specific Lambda function</td>
@@ -81,18 +81,18 @@ Personal scripts to automate management of AWS resources using Python
         </tr>
         <!-- <tr>
             <td colspan=4></td>
-        </tr>
-        <tr>
-            <td colspan=4, style="text-align: left">CloudWatch Logs</td>
-        </tr>
-        <tr>
-            <td width="50%">[description]</td>
-            <td><code>[classes]</code></td>
-            <td><code>[methods]</code></td>
-            <td><a href="">link</a></td>
         </tr> -->
         <tr>
-            <td colspan=4, style="text-align: left">CloudWatch</td>
+            <td colspan=4, style="text-align: left"><b>CloudWatch Logs</b></td>
+        </tr>
+        <tr>
+            <td width="50%">Find and delete log groups from CloudWatchLogs</td>
+            <td><code>CloudWatchLogs. Client</code></td>
+            <td><code>.describe_log_groups()</code> <code>.delete_log_group()</code></td>
+            <td><a href="https://github.com/williamlewis/boto3-mgmt-events/blob/main/01%20-%20Terminal%20Scripts/cloudwatchlogs_delete_log_groups.py">cloudwatchlogs delete log groups.py</a></td>
+        </tr>
+        <tr>
+            <td colspan=4, style="text-align: left"><b>CloudWatch</b></td>
         </tr>
         <tr>
             <td rowspan=2 width="50%">Delete CloudWatch metric alarms</td>
