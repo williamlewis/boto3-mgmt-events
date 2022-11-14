@@ -32,16 +32,24 @@ Boto3 as defined in the official [Boto3 Documentation](https://boto3.amazonaws.c
         </tr>
     </thead>
     <tbody>
-        <!-- <tr>
+        <tr>
             <td colspan=4, style="text-align: left"><b>S3</b></td>
         </tr>
         <tr>
-            <td width="50%">[description]</td>
-            <td><code>[classes]</code></td>
-            <td><code>[methods]</code></td>
-            <td><a href="">link</a></td>
+            <td rowspan="3">Delete a specific S3 bucket including all objects and object versions within</td>
+            <td><code>S3. ServiceResource</code></td>
+            <td><code>--</code></td>
+            <td rowspan="3"><a href="https://github.com/williamlewis/boto3-mgmt-events/blob/main/01%20-%20Terminal%20Scripts/s3_delete_bucket_and_objects.py">s3 delete bucket and objects.py</a></td>
         </tr>
         <tr>
+            <td><code>S3. Bucket</code></td>
+            <td><code>.objects.all()</code> <code>.delete()</code></td>
+        </tr>
+        <tr>
+            <td><code>S3. Object</code></td>
+            <td><code>.object_versions_delete()</code> <code>.delete()</code></td>
+        </tr>
+        <!-- <tr>
             <td colspan=4></td>
         </tr>
         <tr>
@@ -102,7 +110,7 @@ Boto3 as defined in the official [Boto3 Documentation](https://boto3.amazonaws.c
             <td colspan=4, style="text-align: left"><b>CloudWatch Logs</b></td>
         </tr>
         <tr>
-            <td width="50%">Find and delete log groups from CloudWatchLogs</td>
+            <td>Find and delete log groups from CloudWatchLogs</td>
             <td><code>CloudWatchLogs. Client</code></td>
             <td><code>.describe_log_groups()</code> <code>.delete_log_group()</code></td>
             <td><a href="https://github.com/williamlewis/boto3-mgmt-events/blob/main/01%20-%20Terminal%20Scripts/cloudwatchlogs_delete_log_groups.py">cloudwatchlogs delete log groups.py</a></td>
@@ -111,7 +119,7 @@ Boto3 as defined in the official [Boto3 Documentation](https://boto3.amazonaws.c
             <td colspan=4, style="text-align: left"><b>CloudWatch</b></td>
         </tr>
         <tr>
-            <td rowspan=2 width="50%">Delete CloudWatch metric alarms</td>
+            <td rowspan=2>Delete CloudWatch metric alarms</td>
             <td><code>CloudWatch. ServiceResource</code></td>
             <td><code>.alarms.all()</code></td>
             <td rowspan=2><a href="https://github.com/williamlewis/boto3-mgmt-events/blob/main/01%20-%20Terminal%20Scripts/cloudwatch_delete_alarms.py">cloudwatch delete alarms.py</a></td>
