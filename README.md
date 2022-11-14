@@ -33,7 +33,7 @@ Boto3 as defined in the official [Boto3 Documentation](https://boto3.amazonaws.c
     </thead>
     <tbody>
         <tr>
-            <td colspan=4, style="text-align: left"><b>S3</b></td>
+            <td colspan=4, style="text-align: left"><h2>S3</h2></td>
         </tr>
         <tr>
             <td rowspan="3">Delete a specific S3 bucket including all objects and object versions within</td>
@@ -53,7 +53,7 @@ Boto3 as defined in the official [Boto3 Documentation](https://boto3.amazonaws.c
             <td colspan=4></td>
         </tr>
         <tr>
-            <td colspan=4, style="text-align: left"><b>DynamoDB</b></td>
+            <td colspan=4, style="text-align: left"><h2>DynamoDB</h2></td>
         </tr>
         <tr>
             <td width="50%">[description]</td>
@@ -65,7 +65,7 @@ Boto3 as defined in the official [Boto3 Documentation](https://boto3.amazonaws.c
             <td colspan=4></td>
         </tr> -->
         <tr>
-            <td colspan=4, style="text-align: left"><b>EC2</b></td>
+            <td colspan=4, style="text-align: left"><h2>EC2</h2></td>
         </tr>
         <tr>
             <td>Launch a specified number of new instances from defined AMI & instance type</td>
@@ -83,7 +83,7 @@ Boto3 as defined in the official [Boto3 Documentation](https://boto3.amazonaws.c
             <td colspan=4></td>
         </tr>
         <tr>
-            <td colspan=4, style="text-align: left"><b>SNS</b></td>
+            <td colspan=4, style="text-align: left"><h2>SNS</h2></td>
         </tr>
         <tr>
             <td width="50%">[description]</td>
@@ -95,7 +95,7 @@ Boto3 as defined in the official [Boto3 Documentation](https://boto3.amazonaws.c
             <td colspan=4></td>
         </tr> -->
         <tr>
-            <td colspan=4, style="text-align: left"><b>Lambda</b></td>
+            <td colspan=4, style="text-align: left"><h2>Lambda</h2></td>
         </tr>
         <tr>
             <td>Delete a specific Lambda function</td>
@@ -107,7 +107,7 @@ Boto3 as defined in the official [Boto3 Documentation](https://boto3.amazonaws.c
             <td colspan=4></td>
         </tr> -->
         <tr>
-            <td colspan=4, style="text-align: left"><b>CloudWatch Logs</b></td>
+            <td colspan=4, style="text-align: left"><h2>CloudWatch Logs</h2></td>
         </tr>
         <tr>
             <td>Find and delete log groups from CloudWatchLogs</td>
@@ -116,7 +116,7 @@ Boto3 as defined in the official [Boto3 Documentation](https://boto3.amazonaws.c
             <td><a href="https://github.com/williamlewis/boto3-mgmt-events/blob/main/01%20-%20Terminal%20Scripts/cloudwatchlogs_delete_log_groups.py">cloudwatchlogs delete log groups.py</a></td>
         </tr>
         <tr>
-            <td colspan=4, style="text-align: left"><b>CloudWatch</b></td>
+            <td colspan=4, style="text-align: left"><h2>CloudWatch</h2></td>
         </tr>
         <tr>
             <td rowspan=2>Delete CloudWatch metric alarms</td>
