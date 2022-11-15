@@ -36,6 +36,12 @@ Boto3 as defined in the official [Boto3 Documentation](https://boto3.amazonaws.c
             <td colspan=4, style="text-align: left"><h2>S3</h2></td>
         </tr>
         <tr>
+            <td>Create a new S3 bucket</td>
+            <td><code>S3. ServiceResource</code></td>
+            <td><code>.create_bucket()</code></td>
+            <td><a href="https://github.com/williamlewis/boto3-mgmt-events/blob/main/01%20-%20Terminal%20Scripts/s3_create_bucket.py">s3 create bucket.py</a></td>
+        </tr>
+        <tr>
             <td rowspan="3">Delete a specific S3 bucket including all objects and object versions within</td>
             <td><code>S3. ServiceResource</code></td>
             <td><code>--</code></td>
