@@ -85,6 +85,16 @@ Boto3 as defined in the official [Boto3 Documentation](https://boto3.amazonaws.c
             <td><code>.instances.all()</code></td>
             <td><a href="https://github.com/williamlewis/boto3-mgmt-events/blob/main/01%20-%20Terminal%20Scripts/ec2_get_all_instance_ids.py">ec2 get all instance ids.py</a></td>
         </tr>
+        <tr>
+            <td rowspan="2">Deregister (delete) a custom machine image from a specific region</td>
+            <td><code>EC2. ServiceResource</code></td>
+            <td><code>--</code></td>
+            <td rowspan="2"><a href="https://github.com/williamlewis/boto3-mgmt-events/blob/main/01%20-%20Terminal%20Scripts/ec2_deregister_ami.py">ec2 deregister ami.py</a></td>
+        </tr>
+        <tr>
+            <td><code>EC2. Image</code></td>
+            <td><code>.deregister()</code></td>
+        </tr>
         <!-- <tr>
             <td colspan=4></td>
         </tr>
