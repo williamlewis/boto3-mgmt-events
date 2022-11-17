@@ -1,8 +1,6 @@
 # boto3-mgmt-events
 
-[In Progress]
-
-Personal scripts to automate management of AWS resources using Python
+[In Progress] Personal scripts to automate management of AWS resources using Python
 
 </br>
 
