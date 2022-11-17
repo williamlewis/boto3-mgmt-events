@@ -55,21 +55,19 @@ Boto3 as defined in the official [Boto3 Documentation](https://boto3.amazonaws.c
             <td><code>S3. Object</code></td>
             <td><code>.object_versions_delete()</code> <code>.delete()</code></td>
         </tr>
-        <!-- <tr>
-            <td colspan=4></td>
-        </tr>
         <tr>
             <td colspan=4, style="text-align: left"><h2>DynamoDB</h2></td>
         </tr>
         <tr>
-            <td width="50%">[description]</td>
-            <td><code>[classes]</code></td>
-            <td><code>[methods]</code></td>
-            <td><a href="">link</a></td>
+            <td rowspan="2">Delete a table in DynamoDB</td>
+            <td><code>DynamoDB. ServiceResource</code></td>
+            <td><code>--</code></td>
+            <td rowspan="2"><a href="https://github.com/williamlewis/boto3-mgmt-events/blob/main/01%20-%20Terminal%20Scripts/dynamodb_delete_table.py">dynamodb delete table.py</a></td>
         </tr>
         <tr>
-            <td colspan=4></td>
-        </tr> -->
+            <td><code>DynamoDB. Table</code></td>
+            <td><code>.delete()</code></td>
+        </tr>
         <tr>
             <td colspan=4, style="text-align: left"><h2>EC2</h2></td>
         </tr>
@@ -96,9 +94,6 @@ Boto3 as defined in the official [Boto3 Documentation](https://boto3.amazonaws.c
             <td><code>.deregister()</code></td>
         </tr>
         <!-- <tr>
-            <td colspan=4></td>
-        </tr>
-        <tr>
             <td colspan=4, style="text-align: left"><h2>SNS</h2></td>
         </tr>
         <tr>
@@ -106,9 +101,6 @@ Boto3 as defined in the official [Boto3 Documentation](https://boto3.amazonaws.c
             <td><code>[classes]</code></td>
             <td><code>[methods]</code></td>
             <td><a href="">link</a></td>
-        </tr>
-        <tr>
-            <td colspan=4></td>
         </tr> -->
         <tr>
             <td colspan=4, style="text-align: left"><h2>Lambda</h2></td>
@@ -119,9 +111,6 @@ Boto3 as defined in the official [Boto3 Documentation](https://boto3.amazonaws.c
             <td><code>.delete_function()</code></td>
             <td><a href="https://github.com/williamlewis/boto3-mgmt-events/blob/main/01%20-%20Terminal%20Scripts/lambda_delete_function.py">lambda delete function.py</a></td>
         </tr>
-        <!-- <tr>
-            <td colspan=4></td>
-        </tr> -->
         <tr>
             <td colspan=4, style="text-align: left"><h2>CloudWatch Logs</h2></td>
         </tr>
@@ -148,5 +137,3 @@ Boto3 as defined in the official [Boto3 Documentation](https://boto3.amazonaws.c
 </table>
 
 </br>
-
-
