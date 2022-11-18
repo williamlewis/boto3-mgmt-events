@@ -91,15 +91,15 @@ Boto3 as defined in the official [Boto3 Documentation](https://boto3.amazonaws.c
             <td><code>EC2. Image</code></td>
             <td><code>.deregister()</code></td>
         </tr>
-        <!-- <tr>
+        <tr>
             <td colspan=4, style="text-align: left"><h2>SNS</h2></td>
         </tr>
         <tr>
-            <td width="50%">[description]</td>
-            <td><code>[classes]</code></td>
-            <td><code>[methods]</code></td>
-            <td><a href="">link</a></td>
-        </tr> -->
+            <td>Delete an SNS topic and related subscriptions</td>
+            <td><code>SNS. Client</code></td>
+            <td><code>.delete_topic()</code></td>
+            <td><a href="https://github.com/williamlewis/boto3-mgmt-events/blob/main/01%20-%20Terminal%20Scripts/sns_delete_topic.py">sns delete topic.py</a></td>
+        </tr>
         <tr>
             <td colspan=4, style="text-align: left"><h2>Lambda</h2></td>
         </tr>
