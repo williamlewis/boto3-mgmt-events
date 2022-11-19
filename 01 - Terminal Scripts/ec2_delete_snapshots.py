@@ -1,4 +1,4 @@
-# Delete instance snapshots created by self
+# Delete self-owned instance snapshots
 
 # create boto3 EC2 resource & get self-owned snapshots with collection
 import boto3
