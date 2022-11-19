@@ -31,7 +31,7 @@ Boto3 as defined in the official [Boto3 Documentation](https://boto3.amazonaws.c
     </thead>
     <tbody>
         <tr>
-            <td colspan=4, style="text-align: left"><h3>S3</h3></td>
+            <td colspan=4, style="text-align: left"><h2>S3</h2></td>
         </tr>
         <tr>
             <td>Create a new S3 bucket</td>
@@ -54,7 +54,7 @@ Boto3 as defined in the official [Boto3 Documentation](https://boto3.amazonaws.c
             <td><code>.object_versions_delete()</code> <code>.delete()</code></td>
         </tr>
         <tr>
-            <td colspan=4, style="text-align: left"><h3>DynamoDB</h3></td>
+            <td colspan=4, style="text-align: left"><h2>DynamoDB</h2></td>
         </tr>
         <tr>
             <td rowspan="2">Delete a table in DynamoDB</td>
@@ -67,7 +67,7 @@ Boto3 as defined in the official [Boto3 Documentation](https://boto3.amazonaws.c
             <td><code>.delete()</code></td>
         </tr>
         <tr>
-            <td colspan=4, style="text-align: left"><h3>EC2</h3></td>
+            <td colspan=4, style="text-align: left"><h2>EC2</h2></td>
         </tr>
         <tr>
             <td>Launch a specified number of new instances from defined AMI & instance type</td>
@@ -92,7 +92,17 @@ Boto3 as defined in the official [Boto3 Documentation](https://boto3.amazonaws.c
             <td><code>.deregister()</code></td>
         </tr>
         <tr>
-            <td colspan=4, style="text-align: left"><h3>SNS</h3></td>
+            <td rowspan="2">Delete self-owned instance snapshots</td>
+            <td><code>EC2. ServiceResource</code></td>
+            <td><code>.snapshots.filter()</code></td>
+            <td rowspan="2"><a href="https://github.com/williamlewis/boto3-mgmt-events/blob/main/01%20-%20Terminal%20Scripts/ec2_delete_snapshots.py">ec2 delete snapshots.py</a></td>
+        </tr>
+        <tr>
+            <td><code>EC2. Snapshot</code></td>
+            <td><code>.delete()</code></td>
+        </tr>
+        <tr>
+            <td colspan=4, style="text-align: left"><h2>SNS</h2></td>
         </tr>
         <tr>
             <td>Delete an SNS topic and related subscriptions</td>
@@ -101,7 +111,7 @@ Boto3 as defined in the official [Boto3 Documentation](https://boto3.amazonaws.c
             <td><a href="https://github.com/williamlewis/boto3-mgmt-events/blob/main/01%20-%20Terminal%20Scripts/sns_delete_topic.py">sns delete topic.py</a></td>
         </tr>
         <tr>
-            <td colspan=4, style="text-align: left"><h3>Lambda</h3></td>
+            <td colspan=4, style="text-align: left"><h2>Lambda</h2></td>
         </tr>
         <tr>
             <td>Delete a specific Lambda function</td>
@@ -110,7 +120,7 @@ Boto3 as defined in the official [Boto3 Documentation](https://boto3.amazonaws.c
             <td><a href="https://github.com/williamlewis/boto3-mgmt-events/blob/main/01%20-%20Terminal%20Scripts/lambda_delete_function.py">lambda delete function.py</a></td>
         </tr>
         <tr>
-            <td colspan=4, style="text-align: left"><h3>CloudWatch Logs</h3></td>
+            <td colspan=4, style="text-align: left"><h2>CloudWatch Logs</h2></td>
         </tr>
         <tr>
             <td>Find and delete log groups from CloudWatchLogs</td>
@@ -119,7 +129,7 @@ Boto3 as defined in the official [Boto3 Documentation](https://boto3.amazonaws.c
             <td><a href="https://github.com/williamlewis/boto3-mgmt-events/blob/main/01%20-%20Terminal%20Scripts/cloudwatchlogs_delete_log_groups.py">cloudwatchlogs delete log groups.py</a></td>
         </tr>
         <tr>
-            <td colspan=4, style="text-align: left"><h3>CloudWatch</h3></td>
+            <td colspan=4, style="text-align: left"><h2>CloudWatch</h2></td>
         </tr>
         <tr>
             <td rowspan=2>Delete CloudWatch metric alarms</td>
