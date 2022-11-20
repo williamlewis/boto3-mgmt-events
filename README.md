@@ -54,6 +54,12 @@ Boto3 as defined in the official [Boto3 Documentation](https://boto3.amazonaws.c
             <td><code>.object_versions_delete()</code> <code>.delete()</code></td>
         </tr>
         <tr>
+            <td>Delete a single object from an S3 bucket</td>
+            <td><code>S3. Client</code></td>
+            <td><code>.delete_object()</code></td>
+            <td><a href="https://github.com/williamlewis/boto3-mgmt-events/blob/main/01%20-%20Terminal%20Scripts/s3_delete_object.py">s3 delete object.py</a></td>
+        </tr>
+        <tr>
             <td colspan=4, style="text-align: left"><h2>DynamoDB</h2></td>
         </tr>
         <tr>
