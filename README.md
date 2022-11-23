@@ -66,6 +66,12 @@ Boto3 as defined in the official [Boto3 Documentation](https://boto3.amazonaws.c
             <td><a href="https://github.com/williamlewis/boto3-mgmt-events/blob/main/01%20-%20Terminal%20Scripts/s3_list_all_buckets.py">s3 list all buckets.py</a></td>
         </tr>
         <tr>
+            <td>List all objects in a specific S3 bucket</td>
+            <td><code>S3. Client</code></td>
+            <td><code>.list_objects()</code></td>
+            <td><a href="https://github.com/williamlewis/boto3-mgmt-events/blob/main/01%20-%20Terminal%20Scripts/s3_list_objects_in_bucket.py">s3 list objects in bucket.py</a></td>
+        </tr>
+        <tr>
             <td colspan=4, style="text-align: left"><h2>DynamoDB</h2></td>
         </tr>
         <tr>
