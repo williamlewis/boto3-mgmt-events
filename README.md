@@ -72,6 +72,16 @@ Boto3 as defined in the official [Boto3 Documentation](https://boto3.amazonaws.c
             <td><a href="https://github.com/williamlewis/boto3-mgmt-events/blob/main/01%20-%20Terminal%20Scripts/s3_list_objects_in_bucket.py">s3 list objects in bucket.py</a></td>
         </tr>
         <tr>
+            <td rowspan="2">Upload a local file to an S3 bucket</td>
+            <td><code>S3. ServiceResource</code></td>
+            <td><code>.meta.client</code></td>
+            <td rowspan="2"><a href="https://github.com/williamlewis/boto3-mgmt-events/blob/main/01%20-%20Terminal%20Scripts/s3_upload_local_file.py">s3 upload local file.py</a></td>
+        </tr>
+        <tr>
+            <td><code>S3. Client</code></td>
+            <td><code>.upload_file()</code></td>
+        </tr>
+        <tr>
             <td colspan=4, style="text-align: left"><h2>DynamoDB</h2></td>
         </tr>
         <tr>
