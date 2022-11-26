@@ -1,6 +1,6 @@
 # boto3-mgmt-events
 
-[In Progress] Personal scripts to automate management of AWS resources using Python
+Personal scripts to automate management of AWS resources using Python
 
 </br>
 
@@ -80,6 +80,16 @@ Boto3 as defined in the official [Boto3 Documentation](https://boto3.amazonaws.c
         <tr>
             <td><code>S3. Client</code></td>
             <td><code>.upload_file()</code></td>
+        </tr>
+        <tr>
+            <td rowspan="2">Find and delete all S3 buckets, including objects and object versions</td>
+            <td><code>S3. ServiceResource</code></td>
+            <td><code>.buckets.all()</code></td>
+            <td rowspan="2"><a href="https://github.com/williamlewis/boto3-mgmt-events/blob/main/01%20-%20Terminal%20Scripts/s3_delete_all_buckets_and_objects.py">s3 delete all buckets and objects.py</a></td>
+        </tr>
+        <tr>
+            <td><code>S3. Bucket</code></td>
+            <td><code>.object_versions.delete()</code> <code>.delete()</code></td>
         </tr>
         <tr>
             <td colspan=4, style="text-align: left"><h2>DynamoDB</h2></td>
