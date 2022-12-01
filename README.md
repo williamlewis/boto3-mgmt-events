@@ -94,19 +94,6 @@ Boto3 as defined in the official [Boto3 Documentation](https://boto3.amazonaws.c
             <td><code>.object_versions.delete()</code> <code>.delete()</code></td>
         </tr>
         <tr>
-            <td colspan=4, style="text-align: left"><h2>DynamoDB</h2></td>
-        </tr>
-        <tr>
-            <td rowspan="2">Delete a table in DynamoDB</td>
-            <td><code>DynamoDB. ServiceResource</code></td>
-            <td><code>--</code></td>
-            <td rowspan="2"><a href="https://github.com/williamlewis/boto3-mgmt-events/blob/main/01%20-%20Terminal%20Scripts/dynamodb_delete_table.py">dynamodb delete table.py</a></td>
-        </tr>
-        <tr>
-            <td><code>DynamoDB. Table</code></td>
-            <td><code>.delete()</code></td>
-        </tr>
-        <tr>
             <td colspan=4, style="text-align: left"><h2>EC2</h2></td>
         </tr>
         <tr>
@@ -150,6 +137,19 @@ Boto3 as defined in the official [Boto3 Documentation](https://boto3.amazonaws.c
         <tr>
             <td><code>EC2. Instance</code></td>
             <td><code>.terminate()</code></td>
+        </tr>
+        <tr>
+            <td colspan=4, style="text-align: left"><h2>DynamoDB</h2></td>
+        </tr>
+        <tr>
+            <td rowspan="2">Delete a table in DynamoDB</td>
+            <td><code>DynamoDB. ServiceResource</code></td>
+            <td><code>--</code></td>
+            <td rowspan="2"><a href="https://github.com/williamlewis/boto3-mgmt-events/blob/main/01%20-%20Terminal%20Scripts/dynamodb_delete_table.py">dynamodb delete table.py</a></td>
+        </tr>
+        <tr>
+            <td><code>DynamoDB. Table</code></td>
+            <td><code>.delete()</code></td>
         </tr>
         <tr>
             <td colspan=4, style="text-align: left"><h2>SNS</h2></td>
