@@ -8,6 +8,8 @@ When learning AWS, you must frequently create, modify, and delete resources for 
 
 Using Boto3 scripting, these repetitive actions can be automated for expediency and can help ensure that demo resources have been removed to avoid incurring unexpected costs.
 
+Included Services:  S3, EC2, DynamoDB, SNS, Lambda, CloudWatch Logs, CloudWatch
+
 </br>
 
 [Boto3 Documentation](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
